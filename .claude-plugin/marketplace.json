@@ -1,0 +1,21 @@
+{
+  "name": "linkmysi",
+  "owner": {
+    "name": "Rick-y Media AB",
+    "email": "hello@richardfrantzen.se"
+  },
+  "metadata": {
+    "description": "Plugins from linkmy.si: shared memory for your AIs."
+  },
+  "plugins": [
+    {
+      "name": "linkmy-si",
+      "source": "./",
+      "description": "Shared memory for your AIs: connect Claude to a linkmy.si workspace you share.",
+      "version": "1.0.0",
+      "homepage": "https://www.linkmy.si",
+      "license": "MIT",
+      "keywords": ["memory", "shared memory", "family", "team", "lists"]
+    }
+  ]
+}

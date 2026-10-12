@@ -1,0 +1,14 @@
+{
+  "name": "linkmy-si",
+  "version": "1.0.0",
+  "description": "Shared memory for your AIs. Connect Claude to a linkmy.si workspace you share with the people you live and work with, so what one person's AI saves, everyone's AI knows: shared memories, shared lists and pages your AIs build together.",
+  "author": {
+    "name": "Rick-y Media AB",
+    "email": "hello@richardfrantzen.se",
+    "url": "https://www.linkmy.si"
+  },
+  "homepage": "https://www.linkmy.si",
+  "repository": "https://github.com/riffchord/linkmysi-plugins",
+  "license": "MIT",
+  "keywords": ["memory", "shared memory", "family", "team", "lists", "mcp"]
+}

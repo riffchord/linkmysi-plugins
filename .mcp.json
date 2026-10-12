@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "linkmy": {
+      "type": "http",
+      "url": "https://www.linkmy.si/mcp"
+    }
+  }
+}

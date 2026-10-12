@@ -1,8 +1,8 @@
-# linkmy.si plugin for Cursor
+# linkmy.si plugins for Claude Code and Cursor
 
 [linkmy.si](https://www.linkmy.si) is a shared memory for your AIs. Each person keeps the AI they already use (Cursor, ChatGPT, Claude, Grok) and connects it to a workspace they share. What one AI saves, the others know.
 
-This plugin connects Cursor to linkmy.si:
+This plugin connects Claude Code or Cursor to linkmy.si:
 
 - **MCP server:** `https://www.linkmy.si/mcp` (Streamable HTTP, OAuth 2.1). You sign in on linkmy.si and pick which workspaces Cursor may use.
 - **Skill** (`skills/linkmy`): when and how to use the shared workspace.
@@ -10,7 +10,17 @@ This plugin connects Cursor to linkmy.si:
 
 ## Install
 
-From the Cursor Marketplace, or locally: copy this folder to `~/.cursor/plugins/local/linkmy-si` and reload the window.
+**Claude Code**
+
+```
+/plugin install linkmy-si --marketplace riffchord/linkmysi-plugins
+```
+
+On older versions: `/plugin marketplace add riffchord/linkmysi-plugins`, then `/plugin install linkmy-si@linkmysi`.
+
+**Cursor:** from the Cursor Marketplace, or locally: copy this folder to `~/.cursor/plugins/local/linkmy-si` and reload the window.
+
+**ChatGPT, Claude.ai, Grok:** add `https://www.linkmy.si/mcp` as a custom connector. Step-by-step guides are at [www.linkmy.si](https://www.linkmy.si).
 
 ## What it can do
 
