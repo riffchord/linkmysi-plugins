@@ -5,7 +5,7 @@
   "description": "Shared memory for your AIs. Connect Cursor to a linkmy.si workspace you share with your team, so what one person's AI saves, everyone's AI knows: shared notes, lists like bookings or open tasks, and pages your AIs build together.",
   "author": {
     "name": "Rick-y Media AB",
-    "email": "hello@richardfrantzen.se"
+    "email": "hello@linkmy.si"
   },
   "license": "MIT",
   "keywords": ["memory", "shared memory", "team", "mcp", "context", "lists", "collaboration"],
